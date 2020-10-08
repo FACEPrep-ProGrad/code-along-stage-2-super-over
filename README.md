@@ -428,7 +428,151 @@ The footer part is very simple one.
 
 ![](https://i1.faceprep.in/ProGrad/css-5.png)
 
+Let us build the game play part. The code is given as an reference.
 
+```html
+ <div class="container">
+        <div class="row">
+            <div class="col">
+                <img
+                    src="./assets/csk.png"
+                    alt=""
+                    class="profile-icon"
+                    height="150px"
+                    width="150px"
+                />
+                <span class="name" id="team-1-name"></span>
+                <div class="row round-runs" id="team-1-round-runs">
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row score">
+                    <span id="team-1-score"></span>
+                    <span>-</span>
+                    <span id="team-2-score"></span>
+                </div>
+            </div>
+            <div class="col">
+                <img
+                    src="./assets/MI.png"
+                    alt=""
+                    class="profile-icon"
+                    height="150px"
+                    width="150px"
+                />
+                <span class="name" id="team-2-name"></span>
+                <div class="row round-runs" id="team-2-round-runs">
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <button
+                id="strike-button"
+                onclick="handleStrikeButtonClick()"
+            ></button>
+        </div>
+        <div class="row" id="result" hidden></div>
+    </div>
+```
+```css
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: Montserrat;
+}
+body {
+	background: #9013fe;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+}
+.container {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	width: 700px;
+	padding: 50px;
+	align-self: center;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+}
+.col {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.container > .row {
+	width: 100%;
+	justify-content: space-evenly;
+}
+.profile-icon {
+    border-radius: 50%;
+    border: 2px solid bisque;
+}
+.name {
+	margin: 20px 0;
+	font-size: x-large;
+	font-weight: bold;
+}
+.score {
+	margin: -80px 0 0;
+	font-size: xx-large;
+}
+.score > span {
+	margin: 0 5px;
+}
+.round-runs {
+	font-size: xx-large;
+	width: 200px;
+	justify-content: space-evenly;
+}
+
+#strike-button {
+	border: none;
+	border-radius: 25px;
+	background: linear-gradient(135deg, #c02425, #f0cb35);
+	font-size: large;
+	width: 300px;
+	color: white;
+	padding: 10px;
+	margin-top: 50px;
+	margin-bottom: -50px;
+	outline: none;
+}
+#strike-button:hover {
+	box-shadow: 0 0 10px 0 black;
+}
+
+#result {
+	margin-top: 50px;
+	background: linear-gradient(90deg, #f79d00, #64f38c);
+	background-clip: text;
+	text-transform: uppercase;
+	font-size: xx-large;
+	font-weight: bold;
+	color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+```
 **Once again, a friendly reminder**: You don't have to wait to finish everything in order to follow the steps listed in the [guidelines](). In a moment when you've made a first significant step in working on this assessment. 
 
 ## Summary
