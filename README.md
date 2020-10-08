@@ -28,16 +28,6 @@ In this exercise, you will continue from where you left previously. If you want,
 
 Our goal is to get as close as possible to this:
 
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-
 
 Although it doesn't look too complicated, we will have to apply quite a few styles on our web page: set a background color on different elements, set a font weight (bold, normal), and position elements using our newly acquired skills in flexbox.
 
@@ -130,7 +120,7 @@ Now we are ready to start adding some styles to our page.
 
 In the first part of this exercise, you created the navbar. Now we have to add some styles to make it more like this:
 
-![]()
+![](https://i1.faceprep.in/ProGrad/css-1.png)
 
 We'll help you style the part of the code we previously provided for you - the upper _list_ of the _nav_ tag.
 
@@ -197,7 +187,7 @@ Make sure to use flexbox at any time where you need to position elements on a sp
 
 #### CSS 3 | The Header
 
-![]()
+![](https://i1.faceprep.in/ProGrad/css-2.png)
 
 In this section, as you can see everything is _centered_. You can add some flexbox rules to the _id_ you attached to this section such is _display: flex;_ and _justify-content: center;_. But this is just the beginning - you still have to set _align-items_ and _flex-direction_.
 
@@ -270,7 +260,7 @@ _Useful information_:
 
 #### CSS 4 | The Section - Fixtures
 
-![]()
+![](https://i1.faceprep.in/ProGrad/css-3.png)
 
 This section has pretty much the same layout as the previous - some code to be reused :wink:.
 
@@ -431,11 +421,11 @@ h3{
 
 #### CSS 5 | The Footer
 
-![]()
+![](https://i1.faceprep.in/ProGrad/css-4.png)
 
 #### CSS 6 | The Gameplay
 
-![]()
+![](https://i1.faceprep.in/ProGrad/css-5.png)
 
 #### CSS 7 | Bonus Points Table
 
