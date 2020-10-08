@@ -423,14 +423,11 @@ h3{
 
 ![](https://i1.faceprep.in/ProGrad/css-4.png)
 
+The footer part is very simple one. 
 #### CSS 6 | The Gameplay
 
 ![](https://i1.faceprep.in/ProGrad/css-5.png)
 
-#### CSS 7 | Bonus Points Table
-
-
-Your TAs will check up your work and provide feedback.
 
 **Once again, a friendly reminder**: You don't have to wait to finish everything in order to follow the steps listed in the [guidelines](). In a moment when you've made a first significant step in working on this assessment. 
 
